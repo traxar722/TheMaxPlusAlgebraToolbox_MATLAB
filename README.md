@@ -4,6 +4,6 @@ This repository presents a toolbox for Max-Plus Algebra developed in the MATLAB 
  **The maxplus class**\
  Implements the max-plus algebra as an algebraic structure. It overloads standard arithmetic operators (where addition is mapped to the $\max$ operator and multiplication is mapped to classical addition) and extends these properties to matrix calculus. It also includes advanced algebraic tools essential for system analysis, such as the Kleene Star operator, the maximal eigenvalue. It inludes the possibility to analyze graph propreties such as connectivity and strong connectivity, ciclity/aciclity and also solving linear equations in the Max-Plus sense such as Ax = b and x = Ax + b. 
 
-  **The PetriNetwork class**\
+  **The PetriNetwork class**
 
   The objective of this class is to represent *timed* and *untimed* Petri Nets using the *initial marking*, *input* and *output* incidence matrixes and the *temporization vector* for timed Nets.
